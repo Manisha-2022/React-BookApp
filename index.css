@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;    
+}
+.wrapper h1{
+  margin-top: 30px;
+  text-align: center;
+}
+.wrapper p{
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+}
+.wrapper .main{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.wrapper .form-container{
+  width: 500px;
+  height: 270px;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;  
+}
+label{
+  display: inline-block;
+  float: none;
+  clear: left;
+  width: 150px;
+  text-align: left;
+  font-weight: bold;
+}
+input {
+
+width: 250px;
+height: 25px;
+display: inline-block;
+
+}
+
+.wrapper .form-container .btn{
+  width: 100%;   
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  background: yellowgreen;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.wrapper .view-container{
+  width: 700px;   
+  height: 70px; 
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 1 rem;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-size: 23px;
+}
+
+th {
+  background-color: yellowgreen;
+}
+
+td {
+  background-color: #e4e4e4;
+}
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+}
+
+.btn-danger{
+  background-color: lightcoral;
+  font-size: medium;
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
